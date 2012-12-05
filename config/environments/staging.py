@@ -11,6 +11,6 @@ TEMPLATE_DEBUG = DEBUG
 # settings/local.py is ignored to allow for easy settings
 # overrides without affecting others
 try:
-    from local import *
+  from local import *
 except ImportError:
-    pass
+  pass

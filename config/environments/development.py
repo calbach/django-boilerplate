@@ -5,10 +5,10 @@ import sys
 sys.dont_write_bytecode = True
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': PROJECT_ROOT / 'db/development.sqlite3',
-    }
+  'default': {
+    'ENGINE': 'django.db.backends.sqlite3',
+    'NAME': PROJECT_ROOT / 'db/development.sqlite3',
+  }
 }
 
 DEBUG = True
