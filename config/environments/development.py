@@ -1,6 +1,8 @@
 from path import path
 from config.settings import *
+import sys
 
+sys.dont_write_bytecode = True
 
 DATABASES = {
     'default': {

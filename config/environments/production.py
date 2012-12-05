@@ -1,14 +1,8 @@
 from config.settings import *
+import dj_database_url
 
 DATABASES = {
-    'default': {
-        'ENGINE': '',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
-        'PORT': '',
-    }
+  'default': dj_database_url.config(default='postgres://localhost')
 }
 
 DEBUG = False
