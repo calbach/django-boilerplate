@@ -17,7 +17,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    ('CH', 'Albach')
+    ('CH Albach', 'ch@albach.com')
 )
 
 MANAGERS = ADMINS
