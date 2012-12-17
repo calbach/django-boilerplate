@@ -1,14 +1,13 @@
-Django Boilerplate (Updated for Django 1.4)
+CH's Django Boilerplate
 ===========================================
 
 A barebones default layout for organised Django development. Inspired a little by Ruby on Rails and 'Django Project Conventions by Zachary Voase (link below).
-
 
 ### Usage
 
 This assumes you have pip and django installed (if not, try `$ sudo easy_install pip`)
 
-    $ django-admin.py startproject --template http://github.com/martinogden/django-boilerplate/zipball/master project_name
+    $ django-admin.py startproject --template http://github.com/calbach/django-boilerplate/zipball/master project_name
     $ cd project_name
     $ pip install -r REQUIREMENTS
     $ python manage.py syncdb --migrate
@@ -29,14 +28,4 @@ Any settings added in `environments/local.py` will be picked up and override any
  * [django-command-extensions](https://github.com/django-extensions): A a collection of custom extensions 
  * [fabric](http://docs.fabfile.org/en/1.3.1/index.html): Application deployment and systems administration tasks.
  * [django-compressor](https://github.com/jezdez/django_compressor): Compresses linked and inline javascript or CSS into a single cached file.
-
-
-### Credits
-
-Much of the layout is taken from a great [post](http://blog.zacharyvoase.com/2010/02/03/django-project-conventions/) by Zachary Voase.
-
-
-### Contributors
-
- * [Scotty Vernon](http://twitter.com/KingScooty): django-compressor integration, included modernizr, boilerplate markup in base.html, and organised javascripts folder.
 
