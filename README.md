@@ -1,7 +1,7 @@
-CH's Django Boilerplate
+Django Boilerplate (CH's fork)
 ===========================================
 
-A barebones default layout for organised Django development. Inspired a little by Ruby on Rails and 'Django Project Conventions by Zachary Voase (link below).
+A barebones default layout for organised Django development.
 
 ### Usage
 
